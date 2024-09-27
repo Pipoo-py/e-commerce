@@ -1,0 +1,46 @@
+.pay__container{
+    margin: auto;
+    margin-top: 10dvh;
+    width: clamp(300px, 10dvw, 400px);
+    background-color: #2C3E50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.pay__container h2{
+    color: #fff;
+}
+
+.pay__container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.pay__container > form > span{
+    margin-top: 12px;
+    color: #fff;
+}
+
+
+.pay__container > form > input{
+    width: 100%;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    outline: none;
+    color: #fff;
+}
+
+.pay__container > form > input[type="submit"]{
+    background-color: #F39C12;
+    border-radius: 16px;
+    border: none;
+}

@@ -1,0 +1,109 @@
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+    background-color: #2C3E50;
+    color: #f5f5f5;
+    gap: 8px;
+}
+
+.nav__logo-container h1{
+    font-size: clamp(8px, 3dvw, 24px);
+}
+
+.nav__input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav__input-container input{
+    padding: 8px 16px;
+    width: 80%;
+    outline: none;
+    border-radius: 16px;
+    border: none;
+    background-color: #1ABC9C;
+    color: #f5f5f5;
+}
+
+.nav__input-container input::placeholder{
+    color: #f5f5f5;
+}
+
+.nav__links-container{
+    position: absolute;
+    right: 10px;
+    border: 1px solid #2C3E50;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px 1px #4442;
+    animation: viewMenu .5s forwards;
+    background-color: #f5f5f5;
+    z-index: 50;
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    background-color: #f5f5f5;
+}
+
+.nav__item{
+    list-style: none;
+
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #F39C12;
+}
+
+.menu-icon{
+    color: #1ABC9C;
+    font-size: 1.4rem;
+}
+
+.--carshop-icon{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.user-search-container{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-content: center;
+    gap: 12px;
+    padding:  64px 16px;
+    position: relative;
+}
+
+.user-search-container > button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 24px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+
+
+@keyframes viewMenu{
+    from{
+        top: -100%;
+    }
+
+    to{
+        top: 110%;
+    }
+}

@@ -1,0 +1,88 @@
+.about__container{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.about-we__section h2,
+.history__section h2,
+.values__section h2,
+.why-us__section h2,
+.contact__section h2{
+    text-align: center;
+    padding:  24px 16px;
+    color: #2C3E50;
+    font-size: 1.7rem;
+}
+
+.about-we__section > p,
+.history__section > p{
+    background-color: #F39C12;
+    border-radius: 16px;
+    color: #f5f5f5;
+    padding: 24px;
+}
+
+.about-we__section,
+.history__section{
+    padding: 0 24px;
+}
+
+.values__grid,
+.why-us-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 24px;
+    gap: 12px;
+}
+
+.value__item,
+.why-us-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 12px;
+    gap: 12px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.value-icon{
+    font-size: 1.5rem;
+    color: #F39C12;
+}
+
+.why-us-item{
+    background-color: #F39C12;
+    font-size: 1.3rem;
+}
+
+.why-us-icon{
+    color: #2C3E50;
+}
+
+.contact__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__section > span{
+    padding: 16px;
+}
+
+.contact__flex ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.contact-icon{
+    font-size: 1.3rem;
+    color: #2C3E50;
+}
+

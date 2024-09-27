@@ -1,0 +1,23 @@
+.header__container h2{
+    text-align: center;
+    padding: 24px 16px;
+    font-size: 1.8rem;
+    color: #2C3E50;
+}
+
+.header__products-carousel{
+    margin: auto;
+    width: 50dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    height: 50dvh;
+}
+
+.header__products-carousel img{
+    width: clamp(200px, 12dvw, 350px);
+    z-index: 10;
+}

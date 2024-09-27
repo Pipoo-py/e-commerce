@@ -1,9 +1,7 @@
 import './App.css';
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
+import { HashRouter,Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import { Home } from './components/Home';
-import { GlobalStateProvider } from './components/GlobalStateForProducts';
-import { GlobalStateForViewCar } from './components/GlobalStateForViewCarShop';
 import { About } from "./components/About";
 import { GlobalStateTotalProducts } from './components/GlobalStateForTotalProducts';
 import { Pay } from "./components/Pay";
@@ -23,7 +21,7 @@ function App() {
         <GlobalStateTotalProducts>
           <ComponentContextForTotalPrice>
           <div className="App">
-          <BrowserRouter>
+          <HashRouter>
             <NavBar />
             <Routes>
               <Route path="/" element={<Home />} />
@@ -31,7 +29,7 @@ function App() {
               <Route path="/pay" element={<Pay />} />
             </Routes>
             <Footer />
-          </BrowserRouter>
+          </HashRouter>
         </div>
         </ComponentContextForTotalPrice>
         </GlobalStateTotalProducts>

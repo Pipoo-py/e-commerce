@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Pipoo-py/e-commerce/static/css/main.37adeecb.css",
-    "main.js": "/Pipoo-py/e-commerce/static/js/main.fb142e3a.js",
-    "index.html": "/Pipoo-py/e-commerce/index.html",
-    "main.37adeecb.css.map": "/Pipoo-py/e-commerce/static/css/main.37adeecb.css.map",
-    "main.fb142e3a.js.map": "/Pipoo-py/e-commerce/static/js/main.fb142e3a.js.map"
+    "main.css": "/e-commerce/static/css/main.37adeecb.css",
+    "main.js": "/e-commerce/static/js/main.fb142e3a.js",
+    "index.html": "/e-commerce/index.html",
+    "main.37adeecb.css.map": "/e-commerce/static/css/main.37adeecb.css.map",
+    "main.fb142e3a.js.map": "/e-commerce/static/js/main.fb142e3a.js.map"
   },
   "entrypoints": [
     "static/css/main.37adeecb.css",
